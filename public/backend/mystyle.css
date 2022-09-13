@@ -1,0 +1,307 @@
+
+/*-------------- dashboard/dashboard.blade/ ------------*/
+.modal-title {
+  font-weight: bold;
+}
+.bg-grey{
+  background-color: #BDBDBD;
+}
+.users-list>li {
+  width: 10%;
+}
+.myrow{margin-top:15px;}
+.myh2{text-align:center;background: #70a1ff;color: white;padding:5px;}
+.myh2-1{text-align:center;background: #65ff88;color: white;padding:5px;}\
+.mysearch{width:150px;}
+/*-------------- /dashboard/dashboard.blade/ ------------*/
+
+
+/*-------------- file/edit_client_type.blade/ ------------*/
+.text-description {
+  width: 100%; 
+  height: 200px; 
+  font-size: 14px; 
+  line-height: 18px; 
+  border: 1px solid #dddddd; 
+  padding: 10px;
+}
+/*-------------- file/edit_client_type.blade/ ------------*/
+
+
+.img-thumbnail{width:100px !important;}
+
+/*-------------- attendance/attendanceDetailsPdf.blade/ ------------*/
+.invoice{width:90%;margin:0px auto;}
+.column {
+float: left;
+width: 30%;
+padding: 10px;
+height: 200px; 
+}
+.column1 {
+float: left;
+width: 30%;
+padding: 10px;
+height: auto;
+}
+.heeading{width:100%;height:30px;background: gray;}
+.invo{border:1px solid gray;margin-left:40%;width:200px;height:28px;background: white;margin-right:20px;}
+.invo b{color:gray;padding:5px;font-size: 1.5em;}
+
+.mytable{ width:100%;
+border-collapse: collapse;
+border-spacing: 0;
+}
+.firstrow{background: #c6c6c6;}
+.lastrow{height:250px;}
+td{padding: 5px;}
+tr:nth-child(even) {background: #f7f7f7}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+@media print{
+.text-right{display:none;}
+}
+.firstrow{background: gray;}
+/*-------------- /attendance/attendanceDetailsPdf.blade/ ------------*/
+
+
+
+
+/*-------------- attendance/getReport.blade/ ------------*/
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { 
+    padding: 8px;
+        color: #626262
+  }
+.table > thead > tr > th {
+    color: #424242;
+}
+/*-------------- attendance/attendanceDetailsPdf.blade/ ------------*/
+
+/*-------------- attendance/setAttendance.blade/ ------------*/
+.settime{ background:#5CA86D; color: white;}
+#theDate1{line-height:20px;}
+/*-------------- attendance/setAttendance.blade/ ------------*/
+
+
+
+/*-------------- increment/salaryStatementPdf.blade/ ------------*/
+.invoice{width:90%;margin:0px auto;}
+ 
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+.heeading{width:100%;height:30px;background: gray;}
+.invo{border:1px solid gray;margin-left:40%;width:200px;height:28px;background: white;margin-right:20px;}
+.invo b{color:gray;padding:5px;font-size: 1.5em;}
+/* Clear floats after the columns */
+
+.mytable{ width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.firstrow{background: #c6c6c6;}
+.lastrow{height:250px;}
+td{padding: 5px;}
+.img{width:100px;height:40px;}
+tr:nth-child(even) {background: #f7f7f7}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media print{
+    .text-right{display:none;}
+}
+.firstrow{background: gray;}
+   
+/*-------------- /increment/salaryStatementPdf.blade/ ------------*/
+
+
+
+/*-------------- /increment/salaryStatementPreview.blade/ ------------*/
+
+ .st-left-body{width: 33%;float:left;margin:10px auto;} 
+ .st-center-body{width: 33%;float:left;margin:10px auto;} 
+ .st-right-body{width: 33%;float:left;margin:10px auto;} 
+ .btn-body{width: 50%;margin:10px auto;} 
+ .sign-body-l{width: 10%;float:left;margin:10%;}
+ .sign-body-r{width: 10%;float:right;margin:10%;}
+ .st-center-body h2{text-align: center;}
+ .st-left-body h4{text-align: left;}
+ .st-right-body h4{text-align: right;}
+ .img-body{width:30%;margin:0px auto;}  
+ .img{width:100%;}
+ .box-body{border:1px solid #eaf2f2;}
+
+
+.mytable{ width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th{padding: 5px;text-align: left;}
+
+
+td{padding: 5px;}
+
+thead{background: #e3e3e3;}
+
+tr:nth-child(even) {background: #f7f7f7}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mybtn{background: #5ca86d;
+    text-orientation: none;
+    color:white;padding:5px 10px;
+    border-radius: 5px;
+}
+.mybtn:hover{background: #2e6da4;}
+
+
+ @media print{
+    .btn-body{display:none;}
+    th{padding: 5px;text-align: left;}
+
+
+td{padding: 5px;}
+
+thead{background: #c6c6c6;}
+
+tr:nth-child(even) {background: #f7f7f7}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+/*-------------- /increment/salaryStatementPreview.blade/ ------------*/
+
+
+
+/*-------------- increment/salaryStatementView.blade/ ------------*/
+ .st-left-body{width: 33%;float:left;margin:10px auto;} 
+ .st-center-body{width: 33%;float:left;margin:10px auto;} 
+ .st-right-body{width: 33%;float:left;margin:10px auto;} 
+ .btn-body{width: 50%;margin:10px auto;} 
+ .sign-body-l{width: 10%;float:left;margin:10%;}
+ .sign-body-r{width: 10%;float:right;margin:10%;}
+ .st-center-body h2{text-align: center;}
+ .st-left-body h4{text-align: left;}
+ .st-right-body h4{text-align: right;}
+ .img-body{width:30%;margin:0px auto;}  
+ .img{width:100%;}
+ .box-body{border:1px solid #eaf2f2;}
+ .tip{width:100% !important;}
+/*-------------- /increment/salaryStatementView.blade/ ------------*/
+
+
+
+/*-------------- leave_application/pdfReports.blade/ ------------*/
+    table {
+        border-collapse: collapse
+    }
+    table, th, td {
+        border: 1px solid black
+    }
+    th {
+        padding: 6px 15px; font-size: 14px
+    }
+    td {
+        padding: 6px 15px; font-size: 14px
+    }
+    container {
+        page-break-after: always
+    }
+    .header {
+        position: fixed; top: 0px; margin: 100px 0px
+    }
+    .footer {
+        position: fixed; bottom: 0px
+    }
+    .pagenum:before {content: counter(page);}
+    @page {
+     size: 29.7cm 21cm;
+     margin-top: 1.27cm;
+     margin-left: 1.27cm;
+     margin-right: 1.27cm;
+ }
+
+/*-------------- /leave_application/pdfReports.blade/ ------------*/
+
+
+/*-------------- leave_application/show_leave_application.blade/ ------------*/
+.signatur{border: 0px solid black; margin-bottom: 30px;}
+.signleft{margin-left: 650px;}
+.oficsign{border: 0px solid black;}
+.dueappr{text-align: center; letter-spacing: 5px;}
+.remark{text-align: center; letter-spacing: 5px;}
+/*-------------- /leave_application/show_leave_application.blade/ ------------*/
+
+
+/*-------------- Salary_Payement/pdf.blade/ ------------*/
+  table {
+    border-collapse: collapse
+  }
+  table, th, td {
+    border: 1px solid black
+  }
+  td {
+    padding: 3px 15px; font-size: 16px
+  }
+  th {
+    padding: 6px 15px; font-size: 14px
+  }
+  container {
+    page-break-after: always
+  }
+  .header {
+    position: fixed; top: 0px; margin: 100px 0px
+  }
+  .footer {
+    position: fixed; bottom: 0px
+  }
+  .pagenum:before {content: counter(page);}
+  @page {
+   size: 21cm 29.7cm;
+   margin-top: 1.27cm;
+   margin-left: 1.27cm;
+   margin-right: 1.27cm;
+ }
+/*-------------- Salary_Payement/pdf.blade/ ------------*/
+
+/*-------------- header.blade ------------*/
+.user-image{width:100px;height:50px;}
+/*-------------- /header.blade ------------*/
+
+/*-------------- employee/employee_print.blade ------------*/
+
+    table {
+        border-collapse: collapse
+    }
+    table, th, td {
+        border: 1px solid black
+    }
+    th {
+        padding: 3px 10px; 
+    }
+    td {
+        padding: 3px 10px; 
+    }
+/*-------------- /employee/employee_print.blade ------------*/
+
+.border{border:1px;}

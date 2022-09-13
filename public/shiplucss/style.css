@@ -1,0 +1,384 @@
+/*====================================
+    Common CSS Starts 
+====================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn,
+.btn:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+button {
+    overflow: hidden;
+}
+
+button,
+button:focus {
+    outline: 0;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-family: Ob;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-family: Osb;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-family: Or;
+}
+
+
+/*====================================
+    Common CSS Ends 
+====================================*/
+/*====================================
+    Invoice Part CSS Starts 
+====================================*/
+
+#invoice {
+    width: 100%;
+    position: relative;
+}
+.myprint{margin:10px auto;background:#42BF6D;}
+.myprint button{background:#42BF6D;color:white;}
+@media  print {
+.myprint {display:none;}
+.myprint button{display:none;}
+.table .thead-dark th {
+    background-color: #30336b !important;
+    border-color: #30336b !important;
+}
+tr:nth-child(odd) {background: #f7f7f7 !important;}
+tr:nth-child(even) {background: #e8e8e8 !important;}
+}
+.header_main {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.brand_logo {
+	float: left;
+	width: 20%;
+	padding-top: 9px;
+}
+
+.header_main .invoice_head {
+    float: left;
+    width: 80%;
+    text-align: right;
+}
+
+.header_main .invoice_head h2 {
+    font-size: 40px;
+    color: #30336b;
+    font-family: Ob;
+}
+
+.header_main .invoice_head p {
+    font-size: 18px;
+    color: #969696;
+    font-family: Ob;
+    padding-bottom: 10px;
+}
+
+.header_main .invoice_head p strong {
+    color: #30336b;
+    margin-right: 5px;
+}
+
+.header_main .invoice_head p:nth-child(2) {
+    padding-bottom: 0px;
+}
+
+.address {
+    position: relative;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    border-top: 5px solid #30336b;
+}
+
+.address .customer_content {
+    float: left;
+    width: 40%;
+}
+
+.address .customer_content h6 {
+    font-size: 16px;
+    color: #444;
+    font-family: Osb;
+}
+
+.address .customer_content h3 {
+    font-size: 24px;
+    color: #222;
+    font-family: Ob;
+    padding-top: 1px;
+    padding-bottom: 4px;
+}
+
+.address .customer_content p,
+.address .address01 p {
+    font-size: 16px;
+    color: #444;
+    font-family: Or;
+    padding-bottom: 2px;
+}
+
+.peyment_methord {
+    float: left;
+    width: 60%;
+    text-align: right;
+}
+
+.peyment_methord h3 {
+    font-size: 20px;
+    color: #222;
+    font-family: Ob;
+    padding-bottom: 15px;
+}
+
+.peyment_methord p {
+    font-size: 16px;
+    color: #444;
+    font-family: Or;
+}
+
+.peyment_methord p strong {
+    margin-right: 5px;
+}
+
+.table_tilte {
+    background: #30336b;
+}
+
+.table_tilte01,
+.table_tilte02,
+.table_tilte03,
+.table_tilte04 {
+    background: #b4b4b4;
+    border-bottom: 1px solid #fff;
+}
+
+.table_Sub_content {
+    padding: 15px;
+    border-left: 1px solid #fff;
+}
+
+.table_Sub_content.table_Sub_content01 {
+    border-color: transparent;
+}
+
+.table_tilte h4 {
+    font-size: 16px;
+    color: #fff;
+    font-family: Ob;
+}
+
+.table_tilte01 p,
+.table_tilte02 p,
+.table_tilte03 p,
+.table_tilte04 p,
+.table_title05 p {
+    font-size: 16px;
+    color: #222;
+    font-family: Or;
+    line-height: 24px;
+}
+
+.table_total {
+    padding-top: 20px;
+    border-top: 3px solid #30336b;
+    margin-bottom: 30px;
+}
+
+.table_total .table_title05 {
+    float: left;
+    width: 50%;
+}
+
+.table_total .table_title06 {
+    float: left;
+    width: 50%;
+}
+
+.table_title05 .table_Sub_content,
+.table_title06 .table_Sub_content {
+    padding: 0px;
+    border: none;
+}
+
+.table_title05 p,
+.table_title06 p {
+    font-size: 16px;
+    color: #222;
+    font-family: Ob;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+.footer {
+    padding-top: 40px;
+}
+
+.footer .inword p {
+    font-size: 16px;
+    color: #444;
+    font-family: Ob;
+}
+
+.footer .inword p strong {
+    color: #30336b;
+}
+
+.footer .more_info {
+    float: left;
+    width: 70%;
+}
+
+.footer .more_info h5 {
+    font-size: 18px;
+    color: #222;
+    font-family: Ob;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.footer .more_info p {
+    font-size: 16px;
+    color: #444;
+    font-family: Or;
+    padding-bottom: 5px;
+}
+
+.footer .thank_you {
+    margin-bottom: 30px;
+    float: left;
+    width: 30%;
+    border-bottom: 3px solid #30336b;
+}
+
+.footer .thank_you h3 {
+    font-size: 42px;
+    color: #30336b;
+    font-family: Ob;
+    padding-bottom: 5px;
+}
+
+.footer .inword {
+    padding-bottom: 25px;
+}
+
+.copyrigth {
+    padding: 10px 15px 11px;
+    background: #30336b;
+}
+
+tr:nth-child(odd) {
+    background: #f7f7f7
+}
+
+tr:nth-child(even) {
+    background: #e8e8e8
+}
+
+.copyrigth p {
+    font-size: 14px;
+    color: #fff;
+    font-family: Or;
+}
+
+/*=========== for Invoice Table============*/
+.table td,
+.table th {
+    color: #444444;
+    padding: 4px 12px;
+}
+
+.table .thead-dark th {
+    background-color: #30336b;
+    border-color: #30336b;
+}
+
+/*=========== for Invoice Table============*/
+/*=========== for Money Receipt============*/
+.address02 h3 {
+    font-size: 36px;
+    color: #30336b;
+    font-family: Ob;
+}
+#Footer .footer_main {
+    padding-bottom: 300px;
+}
+#Footer .footer_main .authorized_signature01 {
+    padding-top: 60px;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+#Footer .footer_main .authorized_signature01 .line {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50px;
+    width: 150px;
+    height: 3px;
+    border-top: 3px solid #30336b;
+}
+#Footer .footer_main .authorized_signature02 {
+    padding-top: 60px;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+#Footer .footer_main .authorized_signature02 .line01 {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 50px;
+    width: 140px;
+    height: 3px;
+    border-top: 3px solid #30336b;
+}
+/*=========== for Money Receipt============*/

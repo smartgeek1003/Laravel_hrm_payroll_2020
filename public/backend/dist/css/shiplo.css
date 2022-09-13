@@ -1,0 +1,306 @@
+body {
+        overflow-x: hidden;
+    }
+
+    .LoginBg {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        height: 100vh;
+        background: url(http://localhost/hrm-payroll-2020/public/images/Background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+    .content_Foinny {
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        background: #dfe6e9;
+        border-radius: 15px;
+        border: 1px solid #fff;
+    }
+
+    .Login_form {
+        padding: 0px 20px;
+    }
+
+    .Heading h3 {
+        font-size: 24px;
+        color: #ff7675;
+        font-family: 'Roboto', sans-serif;
+        line-height: 32px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-bottom: 3px;
+    }
+
+    .Heading h3 span {
+        color: #999;
+    }
+
+    .form-group {
+        margin-bottom: 14px;
+    }
+
+    .form-group .over_box {
+        position: relative;
+        width: 100%;
+        background: #fff;
+        border-radius: 3px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-right: 49px;
+    }
+
+    .form-group .over_box .SideIcon {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        height: 25px;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .form-group .Label {
+        font-size: 14px;
+        color: #888;
+        font-family: 'Roboto', sans-serif;
+        line-height: 20px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 0px !important;
+    }
+
+    .form-group .Input {
+        width: 100%;
+        padding: 0px;
+        border: 1px solid transparent;
+        font-size: 14px;
+        font-weight: 400;
+        color: #999;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .form-group .Input:focus {
+        outline: none;
+    }
+
+    .form-group small {
+        color: #999;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .form-group button {
+        width: 100%;
+        font-size: 14px;
+        line-height: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        -webkit-transition: all linear 0.3s;
+        transition: all linear 0.3s;
+    }
+
+    .form-group button.Admin {
+        color: #fff;
+        background: #ff7675;
+        border: thin solid transparent;
+    }
+
+    .form-group button.Admin:hover {
+        color: #ff7675;
+        background: #fff;
+        border: thin solid #ff7675;
+    }
+
+    .form-group button.Employee {
+        color: #ff7675;
+        background: #fff;
+        border: thin solid #ff7675;
+    }
+
+    .form-group button.Employee:hover {
+        color: #fff;
+        background: #ff7675;
+        border: thin solid transparent;
+    }
+
+    .JoinUs {
+        margin-top: 25px;
+    }
+
+    .JoinUs p {
+        font-size: 16px;
+        color: #888;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-bottom: 7px;
+    }
+
+    .JoinUs .share_link {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        -webkit-transition: all linear 0.3s;
+        transition: all linear 0.3s;
+    }
+
+    .JoinUs .share_link:last-child {
+        margin-right: 0px !important;
+    }
+
+    .JoinUs .share_link.facebook {
+        background-color: #44619D;
+    }
+
+    .JoinUs .share_link.twitter {
+        background-color: #1DA1F2;
+    }
+
+    .JoinUs .share_link.linkin {
+        background-color: #006097;
+    }
+
+    .JoinUs .share_link i {
+        font-size: 20px;
+        line-height: 40px;
+        color: #fff;
+    }
+
+    .Right_side {
+        width: 100%;
+        height: 100%;
+        background-color: #B9D7E7;
+    }
+
+    .SoftWare_name img {
+        filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.2));
+    }
+
+    .btn.focus,
+    .btn:focus {
+        box-shadow: 0 0 0 .2rem transparent;
+    }
+    .force_mar {
+        margin: 0 auto;
+        float: none !important;
+    }
+
+    @media (max-width: 575.98px) {
+        .LoginBg {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .Heading h3 {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .Login_form {
+            padding: 0px 30px 38px;
+        }
+
+        .form-group button {
+            padding: 4px 10px;
+        }
+
+        .JoinUs {
+            margin-top: 23px;
+        }
+    }
+
+
+
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .LoginBg {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .Login_form {
+            padding: 0px 30px 39px;
+        }
+
+        .JoinUs {
+            margin-top: 23px;
+        }
+    }
+
+    @media (min-width:768px) and (max-width:991.98px) {
+        .LoginBg {
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .Login_form {
+            padding: 3px 30px 35px;
+        }
+
+        .Heading h3 {
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 13px;
+        }
+
+        .form-group {
+            margin-bottom: 19px;
+        }
+
+        .JoinUs {
+            margin-top: 0px;
+        }
+
+        .JoinUs p {
+            margin-bottom: 13px;
+        }
+    }
+
+    @media (min-width:992px) and (max-width:1199.98px) {
+        .LoginBg {
+            padding-top: 78px;
+            padding-bottom: 79px;
+        }
+
+        .Heading h3 {
+            font-size: 20px;
+            padding-bottom: 6px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .Buttons {
+            text-align: Left !important;
+        }
+
+        .form-group button {
+            padding: 4px 6px;
+            border-radius: 7px;
+        }
+
+        .form-group button.Admin {
+            margin-right: 2px;
+        }
+
+        .JoinUs {
+            margin-top: 13px;
+        }
+
+        .JoinUs p {
+            margin-bottom: 13px;
+        }
+    }
